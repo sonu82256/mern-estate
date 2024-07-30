@@ -56,7 +56,7 @@ const SignUp = () => {
         <input type="email" placeholder='email' className='border p-3 rounded-lg' id='email'  onChange={handleChange}/>
         <input type="password" placeholder='passwod' className='border p-3 rounded-lg' id='password'  onChange={handleChange}/>
         <button disabled={loading} className='bg-slate-700 text-white p-3 rounded-lg uppercase, hover:opacity-95 disabled:opacity-80'>
-          {loading? 'loading...' : 'Sign up'}
+          {loading? 'loading...' : 'SIGN UP'}
         </button>
       </form>
       <div className='flex gap-2 mt-5'>
